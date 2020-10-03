@@ -19,11 +19,9 @@ Install the dependencies using ```pip install -r requirements.txt```
 
 ## STARTING LOCAL DEVELOPMENT SERVER
 
-1. Open command prompt
+Navigate to project folder where manage.py present
 
-2. Navigate to project folder where manage.py present
-
-3. Run following command
+Run following command
 ```
  python manage.py runserver  
 ```
