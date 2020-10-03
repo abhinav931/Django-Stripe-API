@@ -29,4 +29,4 @@ Run following command
 
 Go to browser and search for ```127.0.0.1:8000```
 
-***there you will see whole APIs and there description```
+***there you will see whole APIs and there description***
