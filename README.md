@@ -3,17 +3,32 @@ REST API for login , signup, verifying email and creating custom type stripe con
 
 ## Installation
 
-Ensure you have python3 installed
+Install python
 
 Clone the repository
 
-create a virtual environment using ```virtualenv venv```
+## SETTING UP ENVIRONMENT
 
-Activate the virtual environment by running ```source venv/bin/activate```
+create a virtual environment using ```python -m virtualenv venv```
 
-On Windows use source venv\Scripts\activate
+Activate the virtual environment by running 
+(find out path where activate.bat present in venv)
+```[PATH]/activate.bat```
+
 Install the dependencies using ```pip install -r requirements.txt```
 
-Migrate existing db tables by running ```python manage.py migrate```
+## STARTING LOCAL DEVELOPMENT SERVER
 
-Run the django development server using ```python manage.py runserver```
+1. Open command prompt
+
+2. Navigate to project folder where manage.py present
+
+3. Run following command
+```
+ python manage.py runserver  
+```
+## RUN THE SWAGGER UI AS FOLLOWS
+
+Go to browser and search for ```127.0.0.1:8000```
+
+***there you will see whole APIs and there description```
